@@ -74,8 +74,8 @@ These are demonstration definitions chosen for this dataset. A real business wou
 Python 3.10+ is recommended.
 
 ```bash
-git clone https://github.com/blvxx/portfolio.git
-cd portfolio/data-analytics
+git clone https://github.com/blvxx/application-support-portfolio.git
+cd application-support-portfolio/data-analytics
 python -m venv .venv
 ```
 
