@@ -131,7 +131,7 @@ These are troubleshooting patterns and lab exercises. They do not imply access t
 
 Reliable application support reduces time spent on repeated investigation, makes incidents easier to reproduce and improves communication between support, engineering and operations.
 
-The [QA & Commercial Problem-Solving Casebook](https://github.com/blvxx/qa-engineering-portfolio/blob/main/qa-commercial-casebook.md) also includes a controlled AI-assisted support-triage concept, human-review boundaries and proposed pilot metrics.
+The [AI Support Triage Agent](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-support-triage-agent) implements a retrieval-grounded support-triage prototype with evidence validation and mandatory human review. The [QA & Commercial Problem-Solving Casebook](https://github.com/blvxx/qa-engineering-portfolio/blob/main/qa-commercial-casebook.md) describes the concept, boundaries and proposed pilot metrics.
 
 No production SLA improvement or customer savings are claimed without operational measurements.
 
