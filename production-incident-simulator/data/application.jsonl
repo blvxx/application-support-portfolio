@@ -1,0 +1,7 @@
+{"timestamp":"2026-11-24T09:59:42Z","service":"payment-api","level":"INFO","request_id":"req-demo-1001","message":"Webhook request accepted"}
+{"timestamp":"2026-11-24T09:59:48Z","service":"payment-api","level":"ERROR","request_id":"req-demo-1002","message":"Database connection pool acquisition timed out after 5s"}
+{"timestamp":"2026-11-24T09:59:51Z","service":"payment-api","level":"ERROR","request_id":"req-demo-1003","message":"Database connection pool exhausted; request failed with HTTP 503"}
+{"timestamp":"2026-11-24T10:00:02Z","service":"payment-api","level":"WARN","request_id":"req-demo-1004","message":"Webhook processing delayed; dependency health degraded"}
+{"timestamp":"2026-11-24T10:00:04Z","service":"notification-worker","level":"ERROR","request_id":"req-demo-1005","message":"Email provider timeout"}
+{"timestamp":"2026-11-24T10:00:09Z","service":"payment-api","level":"ERROR","request_id":"req-demo-1006","message":"Database connection pool acquisition timed out after 5s"}
+{"timestamp":"2026-11-24T10:00:17Z","service":"payment-api","level":"INFO","request_id":"req-demo-1007","message":"Readiness probe returned degraded"}
