@@ -91,6 +91,20 @@ A complementary payment/ledger sandbox with service health checks, PostgreSQL, D
 
 [CI workflow](https://github.com/blvxx/qa-engineering-portfolio/actions/workflows/fintech-qa-platform.yml)
 
+### 8. Production Incident Simulator — Alert to RCA
+
+[Open project](./production-incident-simulator/)
+
+A deterministic lab that correlates a synthetic monitoring alert with JSON Lines application logs, identifies a probable failure pattern, creates an evidence-backed timeline and proposes read-only investigation checks.
+
+Evidence includes:
+- Alert and log correlation by service and timestamp.
+- Severity summary, matched request IDs and probable-cause hypothesis.
+- Incident triage runbook and sample RCA report.
+- Python unit tests and GitHub Actions validation.
+
+[Successful CI workflow](https://github.com/blvxx/application-support-portfolio/actions/workflows/production-incident-simulator.yml)
+
 ## Incident-handling workflow
 
 1. Confirm the symptom, time window, affected users and business impact.
