@@ -1,0 +1,33 @@
+name: Production Incident Simulator CI
+
+on:
+  push:
+    paths:
+      - "production-incident-simulator/**"
+      - ".github/workflows/production-incident-simulator.yml"
+  pull_request:
+    paths:
+      - "production-incident-simulator/**"
+      - ".github/workflows/production-incident-simulator.yml"
+  workflow_dispatch:
+
+jobs:
+  incident-simulator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile simulator and tests
+        run: python -m compileall -q production-incident-simulator
+      - name: Run unit tests
+        working-directory: production-incident-simulator
+        run: python -m unittest discover -s tests -v
+      - name: Generate sample incident report
+        run: |
+          python production-incident-simulator/src/incident_simulator.py \
+            --alert production-incident-simulator/data/alert.json \
+            --logs production-incident-simulator/data/application.jsonl \
+            --output /tmp/incident-report.json
+          python -c "import json; r=json.load(open('/tmp/incident-report.json')); assert r['correlated_log_count'] == 6; assert 'connection-pool exhaustion' in r['probable_cause']"
