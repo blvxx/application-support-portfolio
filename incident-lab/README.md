@@ -60,7 +60,7 @@ See the [operations toolkit guide](docs/incident-operations-toolkit.md) for outp
 - [Python log analyzer](scripts/analyze_incident.py) — pattern classification and suggested triage checks.
 - [Automated reconciliation](scripts/reconcile_payments.py) — CSV and HTML findings.
 - [Incident summary generator](scripts/incident_summary.py) — combined JSON and HTML.
-- [Incident report template](docs/incident-report-template.md) — reusable incident documentation.
+- [Incident report template](../support-engineering-lab/docs/incident-report-template.md) — reusable incident documentation.
 
 ## Sample dataset
 
