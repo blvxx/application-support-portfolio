@@ -1,0 +1,13 @@
+{
+  "alert_id": "ALERT-DEMO-2026-1124-001",
+  "alert_name": "PaymentApi5xxRateHigh",
+  "service": "payment-api",
+  "environment": "synthetic-demo",
+  "severity": "high",
+  "starts_at": "2026-11-24T10:00:00Z",
+  "summary": "Payment API 5xx rate exceeded the demo threshold",
+  "labels": {
+    "team": "payments",
+    "region": "demo-eu"
+  }
+}
