@@ -1,6 +1,9 @@
-# Artem Kalinin — Application & Production Support Portfolio
+# Application & Production Support — Engineering Evidence
 
-**Application Support L2 · Support Engineer · Production Support · Linux · SQL · Incident Management**
+> **Portfolio navigation:** the concise employer-facing introduction now lives in the [single career portfolio](https://blvxx.github.io/portfolio/). This repository is the supporting technical evidence library: source code, labs, runbooks, synthetic incidents and CI checks. It is not a separate employer portfolio.
+
+
+**Application Support L2 · Support Engineering · Linux · SQL · Incident Investigation**
 
 I troubleshoot application and infrastructure issues using logs, SQL, API checks, service diagnostics and structured incident investigation. My approach combines impact assessment, evidence collection, safe recovery, clear escalation and post-fix verification.
 
