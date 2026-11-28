@@ -88,11 +88,11 @@ A fictional support-operations automation delivery package with product brief, p
 
 ### 7. FinTech Service Diagnostics
 
-[Open project](https://github.com/blvxx/qa-engineering-portfolio/tree/main/fintech-qa-platform)
+[Open project](https://github.com/blvxx/qa-engineering-labs/tree/main/fintech-qa-platform)
 
 A complementary payment/ledger sandbox with service health checks, PostgreSQL, Docker Compose, metrics and controlled dependency-outage/recovery testing.
 
-[CI workflow](https://github.com/blvxx/qa-engineering-portfolio/actions/workflows/fintech-qa-platform.yml)
+[CI workflow](https://github.com/blvxx/qa-engineering-labs/actions/workflows/fintech-qa-platform.yml)
 
 ### 8. Production Incident Simulator — Alert to RCA
 
@@ -106,7 +106,21 @@ Evidence includes:
 - Incident triage runbook and sample RCA report.
 - Python unit tests and GitHub Actions validation.
 
-[Successful CI workflow](https://github.com/blvxx/application-support-portfolio/actions/workflows/production-incident-simulator.yml)
+[Successful CI workflow](https://github.com/blvxx/application-support-labs/actions/workflows/production-incident-simulator.yml)
+
+### 9. Games Support Casebook
+
+[Open casebook](./games-support-casebook/)
+
+A simulated player-support casebook covering purchase issues, account security, login problems, connectivity, moderation and escalation.
+
+Evidence includes:
+- Player-facing first responses and safe evidence collection.
+- Account-security boundaries and escalation rules.
+- Internal ticket notes and concise handover examples.
+- Prioritisation and communication guidance.
+
+All players, products, tickets and incidents are fictional practice scenarios, not real customer support records.
 
 ## Incident-handling workflow
 
@@ -134,7 +148,7 @@ These are troubleshooting patterns and lab exercises. They do not imply access t
 
 Reliable application support reduces time spent on repeated investigation, makes incidents easier to reproduce and improves communication between support, engineering and operations.
 
-The [AI Support Triage Agent](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-support-triage-agent) implements a retrieval-grounded support-triage prototype with evidence validation and mandatory human review. The [QA & Commercial Problem-Solving Casebook](https://github.com/blvxx/qa-engineering-portfolio/blob/main/qa-commercial-casebook.md) describes the concept, boundaries and proposed pilot metrics.
+The [AI Support Triage Agent](https://github.com/blvxx/python-backend-projects/tree/main/ai-support-triage-agent) implements a retrieval-grounded support-triage prototype with evidence validation and mandatory human review. The [QA & Commercial Problem-Solving Casebook](https://github.com/blvxx/qa-engineering-labs/blob/main/qa-commercial-casebook.md) describes the concept, boundaries and proposed pilot metrics.
 
 No production SLA improvement or customer savings are claimed without operational measurements.
 
