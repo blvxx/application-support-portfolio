@@ -11,6 +11,10 @@ I troubleshoot application and infrastructure issues using logs, SQL, API checks
 
 [GitHub profile](https://github.com/blvxx) · [Email](mailto:blvx8x@gmail.com) · [Telegram](https://t.me/blvlxx)
 
+## Player-facing game support
+
+[Games Support Casebook](./games-support-casebook/README.md) — six simulated player-support cases covering purchase issues, account security, login problems, connectivity, ban appeals and safety reports. Each case includes safe evidence collection, escalation boundaries and handover notes. All cases are fictional practice scenarios, not real customer tickets or employer procedures.
+
 ## Core support capabilities
 
 - **Linux:** systemd, journalctl, process/service diagnostics, permissions and networking.
