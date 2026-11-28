@@ -108,6 +108,20 @@ Evidence includes:
 
 [Successful CI workflow](https://github.com/blvxx/application-support-labs/actions/workflows/production-incident-simulator.yml)
 
+### 9. Games Support Casebook
+
+[Open casebook](./games-support-casebook/)
+
+A simulated player-support casebook covering purchase issues, account security, login problems, connectivity, moderation and escalation.
+
+Evidence includes:
+- Player-facing first responses and safe evidence collection.
+- Account-security boundaries and escalation rules.
+- Internal ticket notes and concise handover examples.
+- Prioritisation and communication guidance.
+
+All players, products, tickets and incidents are fictional practice scenarios, not real customer support records.
+
 ## Incident-handling workflow
 
 1. Confirm the symptom, time window, affected users and business impact.
