@@ -1,11 +1,11 @@
-# Application & Production Support — Engineering Evidence
+# Application Support Labs — Linux Troubleshooting & Incident Investigation
 
 > **Portfolio navigation:** the concise employer-facing introduction now lives in the [single career portfolio](https://blvxx.github.io/portfolio/). This repository is the supporting technical evidence library: source code, labs, runbooks, synthetic incidents and CI checks. It is not a separate employer portfolio.
 
 
 **Application Support L2 · Support Engineering · Linux · SQL · Incident Investigation**
 
-I troubleshoot application and infrastructure issues using logs, SQL, API checks, service diagnostics and structured incident investigation. My approach combines impact assessment, evidence collection, safe recovery, clear escalation and post-fix verification.
+Hands-on Application Support evidence: Linux troubleshooting labs, application and infrastructure incident investigations, SQL checks, log triage, safe recovery and operational runbooks. My approach combines impact assessment, evidence collection, safe recovery, clear escalation and post-fix verification.
 
 **Target roles:** Application Support Engineer L2 · Production Support Engineer · Technical Support Engineer · Support Engineer
 
